@@ -20,5 +20,5 @@ interface IEmployee {
   
   let emp = new Employee(1, "Steve");
   
-  console.log(emp);
+  console.log(emp.getSalary(1));
   
